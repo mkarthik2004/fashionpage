@@ -1,0 +1,120 @@
+html,body {
+    background-color:#121212 ;
+    margin:0;
+    padding: 0;
+
+}
+
+h1,p,h2,h3,ul,ol,span,h4{
+    color:#dedede
+}
+
+nav ul  {
+    background-color:#999999 ;
+    width:100%;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    list-style:none;
+    gap: 20px;
+    
+}
+nav a{
+    color: #121212;
+    text-decoration: none;
+    padding:8px 16px;
+    border-radius: 6px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    
+}
+nav a:hover{
+    color:#999999;
+    background-color: #121212;
+}
+.STMC{
+    background-color:#555555 ;
+    width: 100%;
+    display: flex;
+    color: #dedede;
+    padding:8px 16px;
+    text-decoration: none;
+    top: -40px;
+    left:0;
+    z-index: 1000;
+    transition: top 0.2s ease;
+
+
+}
+
+.STMC:focus{
+    top:10px;
+}
+
+.aboutmepic img{
+    border:2px solid #cccccc;
+    padding: 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+.sneaker-collection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 24px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+
+
+}
+.sneaker-collection p{
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.sneaker-collection img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border:2px solid #cccccc;
+    padding: 6px;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto 12px;
+    transition: transform 0.2s ease;
+}
+.sneaker-collection img:hover{
+    transform: scale(2);
+}
+
+.aesthetic-gallery{
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.aesthetic-Gallery img{
+    width: 200px;
+    height:auto;
+    transition:transform 0.3s ease;
+    border:2px solid #cccccc;
+    padding:8px;
+
+
+}
+.aesthetic-Gallery img:nth-child(odd){
+    border-radius: 10px;
+}
+
+.aesthetic-Gallery img:nth-child(even){
+    border-radius: 50%;
+}
+
+.aesthetic-Gallery img:hover{
+    transform: scale(1.05);
+}
+
